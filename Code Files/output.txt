@@ -1,0 +1,50 @@
+keyword: void
+ Identifier: main
+(: (
+): )
+
+{: {
+
+    keyword: int
+ Identifier: sum
+ =: =
+ Num: 0
+;
+    keyword: for
+(: (
+keyword: int
+ Identifier: j
+ =: =
+ Num: 0
+; Identifier: j
+<: <
+Num: 10
+; Identifier: j
+=: =
+Identifier: j
++: +
+Num: 1
+): )
+{: {
+
+        Identifier: sum
+ =: =
+ Identifier: sum
+ +: +
+ Identifier: j
+ +: +
+ Num: 10
+.Num: 43
+ +: +
+ Num: 34
+Identifier: E4
+ +: +
+ Num: 45.34E-4
+ +: +
+ Identifier: E43
+ +: +
+.Num: 34
+ 
+    }: }
+
+}: }
